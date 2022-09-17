@@ -1,3 +1,10 @@
 {
-  "importMap": "import_map.json"
+  "importMap": "import_map.json",
+  "tasks": {
+    "hello": "echo 'Hello World'",
+    "and": "./success.sh && echo 'And'",
+    "or": "./success.sh || echo 'OR'",
+    "sequential": "./fail.sh ; echo 'Finally'",
+    "copy": "cp hello.ts hello2.ts"
+  }
 }
