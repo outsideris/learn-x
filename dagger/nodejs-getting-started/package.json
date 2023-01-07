@@ -11,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@dagger.io/dagger": "^0.3.0"
-  }
+  },
+  "type": "module"
 }
